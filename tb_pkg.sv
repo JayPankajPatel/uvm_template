@@ -3,6 +3,7 @@
     `include "uvm_macros.svh"
     package tb_pkg;
         import uvm_pkg::*; 
+        `include "clockgen.sv"
     endpackage : tb_pkg
 
 `endif // __TB_VEND___
